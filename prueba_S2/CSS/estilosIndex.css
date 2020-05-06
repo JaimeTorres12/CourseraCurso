@@ -1,15 +1,174 @@
 /*              ESTILOS BASE           */
 *{
     box-sizing: border-box;
+    margin: 0px;
+    padding: 0%;
+    font-family: Times;
 }
 
 body{
-    background-color: lightsalmon;
+    background-color: #9F280E;
+    color: white;
 }
 
 h1{
-    font-family: Arial;
-    font-weight: bold;
+    text-decoration-color: white;
+    font-size: 45px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
+
+
+/* menu general */
+.menu{
+    margin-top: 70px;
+}
+
+/* POLLO                                 */
+.pollo{
+    background-color: orange;
+    font-size: 15px;
+    width: 30%;
+    height: 180px;
+    margin-left: 2%;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#p{
+    color: black;
+    font-size: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    text-align: center;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    height: 35px;
+    margin-bottom: 3%;
+    
+}
+
+/* CARNE                    */
+.Carne{
+    background-color: #866962;
+    font-size: 15px;
+    width: 30%;
+    height: 180px;
+    margin-left: 2%;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#C{
+
+    color: black;
+    font-size: 30px;
+    background-color: #E53B12;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    text-align: center;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    height: 35px;
+    margin-bottom: 3%;
+}
+
+/* SUSHI                   */
+.Sushi{
+    background-color: salmon;
+    font-size: 15px;
+    width: 30%;
+    height: 180px;
+    margin-left: 2%;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#S{
+
+    color: black;
+    font-size: 30px;
+    background-color: #A46656 ;
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    text-align: center;
+    position: relative;
+    left: 75%;
+    width: 25%;
+    height: 35px;
+    margin-bottom: 3%;
+}
+
+/* RESPOSIVE */
+.menu{
+    width: 100%;
+}
+
+@media (min-width: 992px) 
+{
+    .pollo, .Carne, .Sushi{
+        float: left;
+        border: 2px solid black;
+      }
+
+      .pollo {
+        width: 30%;
+      }
+      .Carne {
+        width: 30%;
+      }
+      .Sushi {
+        width: 30%;
+      }
+
+  }
+
+  @media (min-width: 768px) and (max-width: 991px)
+{
+    .pollo, .Carne{
+        float: left;
+        border: 2px solid black;
+      }
+
+      .pollo {
+        width: 20%;
+      }
+
+      .Carne {
+        width: 20%;
+      }
+      .Sushi {
+        border: 2px solid black;
+        width: 80%;
+        padding-top: 100px;
+      }
+      
+
+  }
+
+  @media (max-width: 767px)
+  {
+      .pollo, .Carne, .Sushi{
+          float: left;
+          border: 2px solid black;
+        }
+  
+        .pollo {
+          width: 10%;
+        }
+
+        .Carne {
+          width: 10%;
+        }
+        .Sushi {
+          width: 10%;
+        }
+  
+    }
