@@ -1,0 +1,58 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    background-color: chocolate;
+}
+
+.navbar-default{ 
+    background-color: orange;
+    color: yellow;
+    font-size: 30px;
+    border: 0px; 
+}
+a.navbar-brand:visited{
+    color:white
+}
+.navbar-brand{
+    font-size: 50px;
+}
+a#i1{
+    text-align: center;
+}
+a#i2{
+    text-align: center;
+}
+a#i3{
+    text-align: center;
+}
+/* Conaineeeeers */
+
+#menu{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    margin: 10px;
+}
+
+h3{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+div#pollo{
+    background-color: cadetblue;
+}
+div#c{
+    background-color: tomato;
+
+}
+div#s{
+    background-color: yellowgreen;
+}
+
+copamex 
+mecatronico
+rolados 
+isis 
